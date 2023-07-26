@@ -1,46 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function NavTabs({ currentPage, handlePageChange }) {
+export default function NavTabs() {
   return (
     <div className="navContainer">
       <div className="nav">
         <p className="nav-item">
-          <a
-            href="#home"
-            onClick={() => handlePageChange("Home")}
-            className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-          >
-            home
-          </a>
+          <Link to={"/"}>home</Link>
         </p>
         <p className="nav-item">
-          <a
-            href="#about"
-            onClick={() => handlePageChange("About")}
-            className={currentPage === "About" ? "nav-link active" : "nav-link"}
-          >
-            about me
-          </a>
+          <Link to={"/about"}>about me</Link>
         </p>
         <p className="nav-item">
-          <a
-            href="#work"
-            onClick={() => handlePageChange("Work")}
-            className={currentPage === "Work" ? "nav-link active" : "nav-link"}
-          >
-            work
-          </a>
+          <Link to={"/work"}>work</Link>
         </p>
         <p className="nav-item">
-          <a
-            href="#contact"
-            onClick={() => handlePageChange("Contact")}
-            className={
-              currentPage === "Contact" ? "nav-link active" : "nav-link"
-            }
-          >
-            contact me
-          </a>
+          <Link to={"/contact"}>contact me</Link>
         </p>
       </div>
     </div>

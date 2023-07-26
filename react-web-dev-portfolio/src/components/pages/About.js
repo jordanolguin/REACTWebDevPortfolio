@@ -14,7 +14,7 @@ export default function About() {
       <p>
         HTML | CSS | JavaScript | JSON | Node.js | MySQL | Sequelize | Bootstrap
         | Handlebars | Inquirer | Bcrypt | Git | Nodemon | React.js | NoSQL |
-        GraphQL | MERN | Agile Methodologies
+        GraphQL | MERN | PWAs | Agile Methodologies
       </p>
       <h1>resume</h1>
       <div className="resumeCard"></div>

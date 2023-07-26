@@ -280,7 +280,7 @@ button[type="submit"]:hover {
   background-color: #13c7fe;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 360px) and (max-width: 640px) {
   .typed {
     overflow: scroll;
     white-space: nowrap;
@@ -297,7 +297,7 @@ button[type="submit"]:hover {
       width: 0;
     }
     to {
-      width: 95%;
+      width: 79%;
     }
   }
 
@@ -311,5 +311,32 @@ button[type="submit"]:hover {
   .resumeCard {
     height: 4rem;
     width: 12rem;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 800px) {
+  .typed {
+    overflow: scroll;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 59.5%;
+    }
+  }
+
+  .resumeCard {
+    height: 8rem;
+    width: 25rem;
   }
 }

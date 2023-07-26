@@ -1,0 +1,235 @@
+* {
+  color: #f8f9fa;
+  font-family: "Share Tech Mono", monospace;
+}
+
+#canvas-basic {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#canvas-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#content-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.neonBorderHome {
+  text-align: start;
+  padding-left: 4%;
+  padding-top: 3%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 75vh;
+  width: 75vw;
+  position: absolute;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  background-color: #212529;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+  margin: 1%;
+}
+
+.neonBorderContact {
+  text-align: start;
+  padding-left: 4%;
+  padding-top: 3%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 75vh;
+  width: 75vw;
+  position: absolute;
+  border: 0.2rem solid #fff;
+  background-color: #212529;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #13eefe,
+    0 0 0.8rem #13eefe, 0 0 2.8rem #13eefe, inset 0 0 1.3rem #13eefe;
+  margin: 1%;
+}
+
+.neonBorderAbout {
+  text-align: start;
+  padding-left: 4%;
+  padding-top: 3%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 75vh;
+  width: 75vw;
+  position: absolute;
+  border: 0.2rem solid #fff;
+  background-color: #212529;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #13fe17,
+    0 0 0.8rem #13fe17, 0 0 2.8rem #13fe17, inset 0 0 1.3rem #13fe17;
+  margin: 1%;
+}
+
+.neonBorderWork {
+  text-align: start;
+  padding-left: 4%;
+  padding-top: 3%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 75vh;
+  width: 75vw;
+  overflow-y: auto;
+  display: flex;
+  position: absolute;
+  border: 0.2rem solid #fff;
+  background-color: #212529;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #fe131f,
+    0 0 0.8rem #fe131f, 0 0 2.8rem #fe131f, inset 0 0 1.3rem #fe131f;
+  margin: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navContainer {
+  margin-top: 0;
+  height: 10vh;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.nav {
+  width: 100%;
+  height: 3.75rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+}
+
+.nav-item {
+  font-size: 120%;
+  text-decoration: none;
+  color: #212529;
+}
+
+.typed {
+  overflow: scroll;
+  white-space: nowrap;
+  border-right: 2px solid;
+  width: 0;
+  animation: typing;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 32%;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  height: 30vh;
+  width: 50vw;
+  border: 0.2rem solid #fff;
+  background-color: #212529;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.workoutWizard {
+  background-image: url(./assets/WorkoutWizardScreenshot.png);
+  background-size: cover;
+}
+
+.roadTripBuddy {
+  background-image: url(./assets/RoadTripBuddyScreenshot.png);
+  background-size: cover;
+}
+
+.weatherDashboard {
+  background-image: url(./assets/WeatherDashboardScreenshot.png);
+  background-size: cover;
+}
+
+.employeeTracker {
+  background-image: url(./assets/EmployeeTrackerScreenshot.png);
+  background-size: cover;
+}
+
+.readmeGenerator {
+  background-image: url(./assets/READMEGeneratorScreenshot.png);
+  background-size: cover;
+}
+
+.resumeCard {
+  background-image: url(./assets/ResumeScreenshot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 29.5vh;
+  width: 14vw;
+  margin: 0.5%;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.field {
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}

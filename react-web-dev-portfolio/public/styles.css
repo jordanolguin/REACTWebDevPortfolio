@@ -222,3 +222,14 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.field {
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}

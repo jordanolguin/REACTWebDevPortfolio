@@ -4,23 +4,44 @@ export default function Contact() {
   return (
     <div className="neonBorderContact">
       <h1>contact me</h1>
-      <p class="contact-info">Email: jdolguin62@gmail.com</p>
-      <p class="contact-info">Phone: 505-403-4095</p>
-      <p class="contact-info">
-        GitHub:
-        <a class="socials" href="https://github.com/jordanolguin">
-          https://github.com/jordanolguin
-        </a>
-      </p>
-      <p class="contact-info">
-        LinkedIn:
-        <a
-          class="socials"
-          href="https://www.linkedin.com/in/jordan-olguin-5897b7280/"
-        >
-          https://www.linkedin.com/in/jordan-olguin-5897b7280/
-        </a>
-      </p>
+      <div className="formContainer">
+        <form>
+          <div className="field" tabIndex={1}>
+            <label for="username">
+              <i></i>your name
+            </label>
+            <input
+              name="username"
+              type="text"
+              placeholder="john doe"
+              required
+            ></input>
+          </div>
+          <div className="field" tabIndex={2}>
+            <label for="username">
+              <i></i>your email
+            </label>
+            <input
+              name="email"
+              type="text"
+              placeholder="email@domain.com"
+              required
+            ></input>
+          </div>
+          <div className="field" tabIndex={3}>
+            <label for="message">
+              <i></i>your message
+            </label>
+            <input
+              name="message"
+              type="text"
+              placeholder="type here"
+              required
+            ></input>
+          </div>
+          <button type="reset">send me a message</button>
+        </form>
+      </div>
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Home")}
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
-          Home
+          home
         </a>
       </li>
       <li className="nav-item">
@@ -18,7 +18,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
-          About Me
+          about me
         </a>
       </li>
       <li className="nav-item">
@@ -27,7 +27,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Work")}
           className={currentPage === "Work" ? "nav-link active" : "nav-link"}
         >
-          Work
+          work
         </a>
       </li>
       <li className="nav-item">
@@ -36,7 +36,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
-          Contact Me
+          contact me
         </a>
       </li>
     </ul>

@@ -33,42 +33,36 @@ export default function Work() {
       <div className="card-container">
         <div
           className="card workoutWizard"
-          id="workout-wizard-link"
           onClick={handleWorkoutWizardLinkClick}
         >
           <h3>Workout Wizard</h3>
         </div>
         <div
           className="card roadTripBuddy"
-          id="road-trip-buddy-link"
           onClick={handleRoadTripBuddyLinkClick}
         >
           <h3>Road Trip Buddy</h3>
         </div>
         <div
           className="card NonReactPortfolio"
-          id="non-react-portfolio-link"
           onClick={handleNonReactPortfolioLinkClick}
         >
           <h3>HTML, CSS, JS ONLY Portfolio</h3>
         </div>
         <div
           className="card weatherDashboard"
-          id="weather-dashboard-link"
           onClick={handleWeatherDashboardLinkClick}
         >
           <h3>Weather Dashboard</h3>
         </div>
         <div
           className="card employeeTracker"
-          id="employee-tracker-link"
           onClick={handleEmployeeTrackerLinkClick}
         >
           <h3>Employee Tracker CLI APP</h3>
         </div>
         <div
           className="card readmeGenerator"
-          id="readme-generator-link"
           onClick={handleReadmeGeneratorLinkClick}
         >
           <h3>README.md Generator CLI APP</h3>

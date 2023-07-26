@@ -24,37 +24,37 @@ export default function Work() {
   return (
     <div className="neonBorderWork">
       <h1>work</h1>
-      <div class="card-container">
+      <div className="card-container">
         <div
-          class="card-large"
+          className="card workoutWizard"
           id="workout-wizard-link"
           onClick={handleWorkoutWizardLinkClick}
         >
           <h3 class="section-title-work">Workout Wizard</h3>
         </div>
         <div
-          class="card-small-1"
+          className="card roadTripBuddy"
           id="road-trip-buddy-link"
           onClick={handleRoadTripBuddyLinkClick}
         >
           <h3 class="section-title-work">Road Trip Buddy</h3>
         </div>
         <div
-          class="card-small-2"
+          className="card weatherDashboard"
           id="weather-dashboard-link"
           onClick={handleWeatherDashboardLinkClick}
         >
           <h3 class="section-title-work">Weather Dashboard</h3>
         </div>
         <div
-          class="card-small-3"
+          className="card employeeTracker"
           id="employee-tracker-link"
           onClick={handleEmployeeTrackerLinkClick}
         >
           <h3 class="section-title-work">Employee Tracker CLI APP</h3>
         </div>
         <div
-          class="card-small-4"
+          className="card readmeGenerator"
           id="readme-generator-link"
           onClick={handleReadmeGeneratorLinkClick}
         >

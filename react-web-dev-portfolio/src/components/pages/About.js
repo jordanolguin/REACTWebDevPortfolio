@@ -10,6 +10,14 @@ export default function About() {
         and constantly tackling new challenges! With high energy and good vibes,
         I am passionate about delivering top-notch results.
       </p>
+      <h1>skills</h1>
+      <p>
+        HTML | CSS | JavaScript | JSON | Node.js | MySQL | Sequelize | Bootstrap
+        | Handlebars | Inquirer | Bcrypt | Git | Nodemon | React.js | NoSQL |
+        GraphQL | MERN | Agile Methodologies
+      </p>
+      <h1>resume</h1>
+      <div className="resumeCard"></div>
     </div>
   );
 }

@@ -53,7 +53,9 @@
 }
 
 .neonBorderContact {
-  text-align: center;
+  text-align: start;
+  padding-left: 4%;
+  padding-top: 3%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -69,7 +71,9 @@
 }
 
 .neonBorderAbout {
-  text-align: center;
+  text-align: start;
+  padding-left: 4%;
+  padding-top: 3%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -85,12 +89,16 @@
 }
 
 .neonBorderWork {
-  text-align: center;
+  text-align: start;
+  padding-left: 4%;
+  padding-top: 3%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 75vh;
   width: 75vw;
+  overflow-y: auto;
+  display: flex;
   position: absolute;
   border: 0.2rem solid #fff;
   background-color: #212529;
@@ -149,4 +157,59 @@ a {
   to {
     width: 32%;
   }
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  height: 30vh;
+  width: 50vw;
+  border: 0.2rem solid #fff;
+  background-color: #212529;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.workoutWizard {
+  background-image: url(./assets/WorkoutWizardScreenshot.png);
+  background-size: cover;
+}
+
+.roadTripBuddy {
+  background-image: url(./assets/RoadTripBuddyScreenshot.png);
+  background-size: cover;
+}
+
+.weatherDashboard {
+  background-image: url(./assets/WeatherDashboardScreenshot.png);
+  background-size: cover;
+}
+
+.employeeTracker {
+  background-image: url(./assets/EmployeeTrackerScreenshot.png);
+  background-size: cover;
+}
+
+.readmeGenerator {
+  background-image: url(./assets/READMEGeneratorScreenshot.png);
+  background-size: cover;
+}
+
+.resumeCard {
+  background-image: url(./assets/ResumeScreenshot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 29.5vh;
+  width: 14vw;
+  margin: 0.5%;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
 }

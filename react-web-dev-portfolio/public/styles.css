@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   color: #f8f9fa;
   font-family: "Share Tech Mono", monospace;
 }
@@ -17,7 +16,7 @@
 }
 
 #canvas-wrapper {
-  position: sticky;
+  position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
@@ -27,7 +26,7 @@
 }
 
 #content-wrapper {
-  position: sticky;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -35,6 +34,48 @@
   overflow: hidden;
 }
 
+.neonBorder {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 75vh;
+  width: 75vw;
+  position: absolute;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+  margin: 1%;
+}
+
 a {
   text-decoration: none;
+}
+
+.navContainer {
+  margin-top: 0;
+  height: 10vh;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.nav {
+  width: 100%;
+  height: 3.75rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+}
+
+.nav-item {
+  font-size: 120%;
+  text-decoration: none;
+  color: #212529;
 }

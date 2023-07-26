@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="neonBorder">
       <h1>contact me</h1>
       <p class="contact-info">Email: jdolguin62@gmail.com</p>
       <p class="contact-info">Phone: 505-403-4095</p>

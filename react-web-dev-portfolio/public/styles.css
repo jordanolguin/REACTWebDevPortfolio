@@ -188,6 +188,11 @@ a {
   background-size: cover;
 }
 
+.NonReactPortfolio {
+  background-image: url(./assets/PortfolioScreenshot.png);
+  background-size: cover;
+}
+
 .weatherDashboard {
   background-image: url(./assets/WeatherDashboardScreenshot.png);
   background-size: cover;
@@ -261,7 +266,7 @@ textarea {
   box-sizing: border-box;
 }
 
-button[type="reset"] {
+button[type="submit"] {
   background-color: #13eefe;
   color: #212529;
   padding: 0.6rem 1rem;
@@ -271,6 +276,6 @@ button[type="reset"] {
   cursor: pointer;
 }
 
-button[type="reset"]:hover {
+button[type="submit"]:hover {
   background-color: #13c7fe;
 }

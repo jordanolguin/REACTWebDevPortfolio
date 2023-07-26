@@ -12,6 +12,10 @@ export default function Work() {
     window.open("https://dsstad.github.io/travel-weather/", "_blank");
   };
 
+  const handleNonReactPortfolioLinkClick = () => {
+    window.open("https://jordanolguin.github.io/WebDevPortfolio/", "_blank");
+  };
+
   const handleWeatherDashboardLinkClick = () => {
     window.open("https://jordanolguin.github.io/WeatherDashboard/", "_blank");
   };
@@ -40,6 +44,13 @@ export default function Work() {
           onClick={handleRoadTripBuddyLinkClick}
         >
           <h3>Road Trip Buddy</h3>
+        </div>
+        <div
+          className="card NonReactPortfolio"
+          id="non-react-portfolio-link"
+          onClick={handleNonReactPortfolioLinkClick}
+        >
+          <h3>HTML, CSS, JS ONLY Portfolio</h3>
         </div>
         <div
           className="card weatherDashboard"

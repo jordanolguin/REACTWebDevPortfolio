@@ -1,15 +1,36 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        form.current,
+        "YOUR_PUBLIC_KEY"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div className="neonBorderContact">
       <h1>contact me</h1>
       <div className="formContainer">
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <div className="field" tabIndex={1}>
             <label for="username">your name</label>
             <input
-              name="username"
+              name="name"
               type="text"
               placeholder="john doe"
               required
@@ -34,7 +55,9 @@ export default function Contact() {
               rows={8}
             ></textarea>
           </div>
-          <button type="reset">send me a message</button>
+          <button type="submit" value={sendEmail}>
+            send me a message
+          </button>
         </form>
       </div>
     </div>

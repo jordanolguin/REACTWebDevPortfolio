@@ -22,7 +22,7 @@ export default function Work() {
     window.location.href = "https://github.com/jordanolguin/REAMDMEGenerator";
   };
   return (
-    <div>
+    <div className="neonBorderWork">
       <h1>work</h1>
       <div class="card-container">
         <div

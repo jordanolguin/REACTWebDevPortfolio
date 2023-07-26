@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="neonBorder">
+    <div className="neonBorderAbout">
       <h1>about me</h1>
       <p>
         Hi! I am a yogi, musician, actor and full-stack dev with exceptional

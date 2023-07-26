@@ -34,7 +34,7 @@
   overflow: hidden;
 }
 
-.neonBorder {
+.neonBorderHome {
   text-align: center;
   top: 50%;
   left: 50%;
@@ -44,8 +44,54 @@
   position: absolute;
   border: 0.2rem solid #fff;
   border-radius: 2rem;
+  background-color: #212529;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
     0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+  margin: 1%;
+}
+
+.neonBorderContact {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 75vh;
+  width: 75vw;
+  position: absolute;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #13eefe,
+    0 0 0.8rem #13eefe, 0 0 2.8rem #13eefe, inset 0 0 1.3rem #13eefe;
+  margin: 1%;
+}
+
+.neonBorderAbout {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 75vh;
+  width: 75vw;
+  position: absolute;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #13fe17,
+    0 0 0.8rem #13fe17, 0 0 2.8rem #13fe17, inset 0 0 1.3rem #13fe17;
+  margin: 1%;
+}
+
+.neonBorderWork {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 75vh;
+  width: 75vw;
+  position: absolute;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #fe131f,
+    0 0 0.8rem #fe131f, 0 0 2.8rem #fe131f, inset 0 0 1.3rem #fe131f;
   margin: 1%;
 }
 

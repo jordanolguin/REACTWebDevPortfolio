@@ -7,9 +7,7 @@ export default function Contact() {
       <div className="formContainer">
         <form>
           <div className="field" tabIndex={1}>
-            <label for="username">
-              <i></i>your name
-            </label>
+            <label for="username">your name</label>
             <input
               name="username"
               type="text"
@@ -18,9 +16,7 @@ export default function Contact() {
             ></input>
           </div>
           <div className="field" tabIndex={2}>
-            <label for="username">
-              <i></i>your email
-            </label>
+            <label for="username">your email</label>
             <input
               name="email"
               type="text"
@@ -28,16 +24,15 @@ export default function Contact() {
               required
             ></input>
           </div>
-          <div className="field" tabIndex={3}>
-            <label for="message">
-              <i></i>your message
-            </label>
-            <input
+          <div className="message" tabIndex={3}>
+            <label for="message">your message</label>
+            <textarea
               name="message"
               type="text"
               placeholder="type here"
               required
-            ></input>
+              rows={8}
+            ></textarea>
           </div>
           <button type="reset">send me a message</button>
         </form>

@@ -35,7 +35,9 @@
 }
 
 .neonBorderHome {
-  text-align: center;
+  text-align: start;
+  padding-left: 4%;
+  padding-top: 3%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -59,6 +61,7 @@
   width: 75vw;
   position: absolute;
   border: 0.2rem solid #fff;
+  background-color: #212529;
   border-radius: 2rem;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #13eefe,
     0 0 0.8rem #13eefe, 0 0 2.8rem #13eefe, inset 0 0 1.3rem #13eefe;
@@ -74,6 +77,7 @@
   width: 75vw;
   position: absolute;
   border: 0.2rem solid #fff;
+  background-color: #212529;
   border-radius: 2rem;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #13fe17,
     0 0 0.8rem #13fe17, 0 0 2.8rem #13fe17, inset 0 0 1.3rem #13fe17;
@@ -89,6 +93,7 @@
   width: 75vw;
   position: absolute;
   border: 0.2rem solid #fff;
+  background-color: #212529;
   border-radius: 2rem;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #fe131f,
     0 0 0.8rem #fe131f, 0 0 2.8rem #fe131f, inset 0 0 1.3rem #fe131f;
@@ -124,4 +129,24 @@ a {
   font-size: 120%;
   text-decoration: none;
   color: #212529;
+}
+
+.typed {
+  overflow: scroll;
+  white-space: nowrap;
+  border-right: 2px solid;
+  width: 0;
+  animation: typing;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 32%;
+  }
 }

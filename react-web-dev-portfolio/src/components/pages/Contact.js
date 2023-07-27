@@ -27,14 +27,16 @@ export default function Contact() {
       );
   };
   const clearForm = () => {
-    const inputs = form.current.getElementsByTagName("input");
-    const textareas = form.current.getElementsByTagName("textarea");
+    if (form.current) {
+      const inputs = form.current.getElementsByTagName("input");
+      const textareas = form.current.getElementsByTagName("textarea");
 
-    for (let input of inputs) {
-      input.value = "";
-    }
-    for (let textarea of textareas) {
-      textarea.value = "";
+      for (let input of inputs) {
+        input.value = "";
+      }
+      for (let textarea of textareas) {
+        textarea.value = "";
+      }
     }
   };
   return (

@@ -1,11 +1,11 @@
 import React from "react";
 
 export default function About() {
-  const resumePDF = require("../../../src/assets/resume.pdf");
+  const resumePDF = require("../../assets/resume.pdf");
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = resumePDF.default;
+    link.href = resumePDF;
     link.download = "resume.pdf";
     link.click();
   };

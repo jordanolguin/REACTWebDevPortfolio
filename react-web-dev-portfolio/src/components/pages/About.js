@@ -1,6 +1,14 @@
 import React from "react";
 
 export default function About() {
+  const resumePDF = require("../../../src/assets/resume.pdf");
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = resumePDF.default;
+    link.download = "resume.pdf";
+    link.click();
+  };
   return (
     <div className="neonBorderAbout">
       <h1>about me</h1>
@@ -16,8 +24,8 @@ export default function About() {
         | Handlebars | Inquirer | Bcrypt | Git | Nodemon | React.js | NoSQL |
         GraphQL | MERN | PWAs | Agile Methodologies
       </p>
-      <h1>resume</h1>
-      <div className="resumeCard"></div>
+      <h1>resume: click to download</h1>
+      <div className="resumeCard" onClick={handleDownload}></div>
     </div>
   );
 }

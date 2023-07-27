@@ -14,10 +14,10 @@ export default function PortfolioContainer() {
       <div>
         <NavTabs />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/REACTWebDevPortfolio" element={<Home />} />
+          <Route path="/REACTWebDevPortfolio/about" element={<About />} />
+          <Route path="/REACTWebDevPortfolio/work" element={<Work />} />
+          <Route path="/REACTWebDevPortfolio/contact" element={<Contact />} />
         </Routes>
         <footer>
           <a

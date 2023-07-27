@@ -6,16 +6,16 @@ export default function NavTabs() {
     <div className="navContainer">
       <div className="nav">
         <p className="nav-item">
-          <Link to={"/"}>home</Link>
+          <Link to={"/REACTWebDevPortfolio"}>home</Link>
         </p>
         <p className="nav-item">
-          <Link to={"/about"}>about me</Link>
+          <Link to={"/REACTWebDevPortfolio/about"}>about me</Link>
         </p>
         <p className="nav-item">
-          <Link to={"/work"}>work</Link>
+          <Link to={"/REACTWebDevPortfolio/work"}>work</Link>
         </p>
         <p className="nav-item">
-          <Link to={"/contact"}>contact me</Link>
+          <Link to={"/REACTWebDevPortfolio/contact"}>contact me</Link>
         </p>
       </div>
     </div>

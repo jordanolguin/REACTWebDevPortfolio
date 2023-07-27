@@ -179,37 +179,37 @@ a {
 }
 
 .workoutWizard {
-  background-image: url(./assets/WorkoutWizardScreenshot.png);
+  background-image: url(WorkoutWizardScreenshot.png);
   background-size: cover;
 }
 
 .roadTripBuddy {
-  background-image: url(./assets/RoadTripBuddyScreenshot.png);
+  background-image: url(RoadTripBuddyScreenshot.png);
   background-size: cover;
 }
 
 .NonReactPortfolio {
-  background-image: url(./assets/PortfolioScreenshot.png);
+  background-image: url(PortfolioScreenshot.png);
   background-size: cover;
 }
 
 .weatherDashboard {
-  background-image: url(./assets/WeatherDashboardScreenshot.png);
+  background-image: url(WeatherDashboardScreenshot.png);
   background-size: cover;
 }
 
 .employeeTracker {
-  background-image: url(./assets/EmployeeTrackerScreenshot.png);
+  background-image: url(EmployeeTrackerScreenshot.png);
   background-size: cover;
 }
 
 .readmeGenerator {
-  background-image: url(./assets/READMEGeneratorScreenshot.png);
+  background-image: url(READMEGeneratorScreenshot.png);
   background-size: cover;
 }
 
 .resumeCard {
-  background-image: url(./assets/ResumeScreenshot.png);
+  background-image: url(ResumeScreenshot.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 29.5vh;

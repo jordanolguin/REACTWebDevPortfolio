@@ -4,7 +4,7 @@ As a recent Full Stack Web Dev Bootcamp graduate, I want a professional portfoli
 
 ## Installation
 
-Navigate to
+Navigate to (https://jordanolguin.github.io/REACTWebDevPortfolio/)
 
 ## Usage
 

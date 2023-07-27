@@ -45,7 +45,7 @@
   width: 75vw;
   position: absolute;
   border: 0.2rem solid #fff;
-  border-radius: 2rem;
+  border-radius: 0.2rem;
   background-color: #212529;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
     0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
@@ -64,7 +64,7 @@
   position: absolute;
   border: 0.2rem solid #fff;
   background-color: #212529;
-  border-radius: 2rem;
+  border-radius: 0.2rem;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #13eefe,
     0 0 0.8rem #13eefe, 0 0 2.8rem #13eefe, inset 0 0 1.3rem #13eefe;
   margin: 1%;
@@ -82,7 +82,7 @@
   position: absolute;
   border: 0.2rem solid #fff;
   background-color: #212529;
-  border-radius: 2rem;
+  border-radius: 0.2rem;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #13fe17,
     0 0 0.8rem #13fe17, 0 0 2.8rem #13fe17, inset 0 0 1.3rem #13fe17;
   margin: 1%;
@@ -102,7 +102,7 @@
   position: absolute;
   border: 0.2rem solid #fff;
   background-color: #212529;
-  border-radius: 2rem;
+  border-radius: 0.2rem;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #fe131f,
     0 0 0.8rem #fe131f, 0 0 2.8rem #fe131f, inset 0 0 1.3rem #fe131f;
   margin: 1%;
@@ -170,7 +170,7 @@ a {
   width: 50vw;
   border: 0.2rem solid #fff;
   background-color: #212529;
-  border-radius: 2rem;
+  border-radius: 0.2rem;
   margin-top: 1rem;
   color: #fff;
   display: flex;
@@ -185,6 +185,11 @@ a {
 
 .roadTripBuddy {
   background-image: url(./assets/RoadTripBuddyScreenshot.png);
+  background-size: cover;
+}
+
+.NonReactPortfolio {
+  background-image: url(./assets/PortfolioScreenshot.png);
   background-size: cover;
 }
 
@@ -211,7 +216,7 @@ a {
   width: 14vw;
   margin: 0.5%;
   border: 0.2rem solid #fff;
-  border-radius: 2rem;
+  border-radius: 0.2rem;
 }
 
 footer {
@@ -224,18 +229,114 @@ footer {
 }
 
 .formContainer {
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 25rem;
+  margin: 0 auto;
 }
 
 .field {
-  border: 0.2rem solid #fff;
-  border-radius: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
-input {
+label {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #f8f9fa;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.25rem;
+  background-color: #6c757d;
   border: 0.2rem solid #fff;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.25rem;
+  background-color: #6c757d;
+  border: 0.2rem solid #fff;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #13eefe;
+  color: #212529;
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+  border: none;
   border-radius: 2rem;
-  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #13c7fe;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .typed {
+    overflow: scroll;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 79%;
+    }
+  }
+
+  .neonBorderContact,
+  .neonBorderAbout,
+  .neonBorderHome,
+  .neonBorderWork {
+    padding-right: 4%;
+  }
+
+  .resumeCard {
+    height: 4rem;
+    width: 12rem;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 800px) {
+  .typed {
+    overflow: scroll;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 59.5%;
+    }
+  }
+
+  .resumeCard {
+    height: 8rem;
+    width: 25rem;
+  }
 }

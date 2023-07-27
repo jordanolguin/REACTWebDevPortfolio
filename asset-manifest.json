@@ -1,11 +1,21 @@
 {
   "files": {
-    "main.js": "/REACTWebDevPortfolio/static/js/main.e56d30e7.js",
+    "main.css": "/REACTWebDevPortfolio/static/css/main.ef4f6ca1.css",
+    "main.js": "/REACTWebDevPortfolio/static/js/main.f59299c9.js",
+    "static/media/WorkoutWizardScreenshot.png": "/REACTWebDevPortfolio/static/media/WorkoutWizardScreenshot.55b63d05b73fdbf64db6.png",
+    "static/media/WeatherDashboardScreenshot.png": "/REACTWebDevPortfolio/static/media/WeatherDashboardScreenshot.feddea25189de8f725d7.png",
+    "static/media/PortfolioScreenshot.png": "/REACTWebDevPortfolio/static/media/PortfolioScreenshot.00b873c59b9d0e460bc7.png",
+    "static/media/RoadTripBuddyScreenshot.png": "/REACTWebDevPortfolio/static/media/RoadTripBuddyScreenshot.6f29550ff604ae608c48.png",
+    "static/media/ResumeScreenshot.png": "/REACTWebDevPortfolio/static/media/ResumeScreenshot.fc8944f464eaff2343ab.png",
+    "static/media/EmployeeTrackerScreenshot.png": "/REACTWebDevPortfolio/static/media/EmployeeTrackerScreenshot.52e56457a3e8020cbfdd.png",
+    "static/media/READMEGeneratorScreenshot.png": "/REACTWebDevPortfolio/static/media/READMEGeneratorScreenshot.48c5fbe74fe2527a5412.png",
     "static/media/resume.pdf": "/REACTWebDevPortfolio/static/media/resume.3b813333766e0c28029b.pdf",
     "index.html": "/REACTWebDevPortfolio/index.html",
-    "main.e56d30e7.js.map": "/REACTWebDevPortfolio/static/js/main.e56d30e7.js.map"
+    "main.ef4f6ca1.css.map": "/REACTWebDevPortfolio/static/css/main.ef4f6ca1.css.map",
+    "main.f59299c9.js.map": "/REACTWebDevPortfolio/static/js/main.f59299c9.js.map"
   },
   "entrypoints": [
-    "static/js/main.e56d30e7.js"
+    "static/css/main.ef4f6ca1.css",
+    "static/js/main.f59299c9.js"
   ]
 }

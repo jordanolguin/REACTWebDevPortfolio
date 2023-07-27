@@ -4,13 +4,13 @@ As a recent Full Stack Web Dev Bootcamp graduate, I want a professional portfoli
 
 ## Installation
 
-Navigate to
+Navigate to (https://jordanolguin.github.io/REACTWebDevPortfolio/)
 
 ## Usage
 
 Easy-to-use and interactive React UI/UX presents my information with a minimalistic/modern style.
 
-![screenshot](./react-web-dev-portfolio/src/assets/react-portfolio-screenshot.png)
+![screenshot](./src/assets/react-portfolio-screenshot.png)
 
 ## Contributing
 

@@ -1,72 +1,57 @@
 import React from "react";
 
+const projectData = [
+  {
+    title: "Workout Wizard",
+    link: "https://the-workout-wizard-7d5c29c6d6dd.herokuapp.com/",
+    className: "workoutWizard",
+  },
+  {
+    title: "Road Trip Buddy",
+    link: "https://dsstad.github.io/travel-weather/",
+    className: "roadTripBuddy",
+  },
+  {
+    title: "HTML, CSS, JS ONLY Portfolio",
+    link: "https://jordanolguin.github.io/WebDevPortfolio/",
+    className: "NonReactPortfolio",
+  },
+  {
+    title: "Weather Dashboard",
+    link: "https://jordanolguin.github.io/WeatherDashboard/",
+    className: "weatherDashboard",
+  },
+  {
+    title: "Employee Tracker CLI APP",
+    link: "https://github.com/jordanolguin/EmployeeTracker",
+    className: "employeeTracker",
+  },
+  {
+    title: "README.md Generator CLI APP",
+    link: "https://github.com/jordanolguin/REAMDMEGenerator",
+    className: "readmeGenerator",
+  },
+];
+
+const Project = ({ title, link, className }) => {
+  const handleClick = () => {
+    window.open(link, "_blank");
+  };
+  return (
+    <div className={`card ${className}`} onClick={handleClick}>
+      <h3>{title}</h3>
+    </div>
+  );
+};
+
 export default function Work() {
-  const handleWorkoutWizardLinkClick = () => {
-    window.open(
-      "https://the-workout-wizard-7d5c29c6d6dd.herokuapp.com/",
-      "_blank"
-    );
-  };
-
-  const handleRoadTripBuddyLinkClick = () => {
-    window.open("https://dsstad.github.io/travel-weather/", "_blank");
-  };
-
-  const handleNonReactPortfolioLinkClick = () => {
-    window.open("https://jordanolguin.github.io/WebDevPortfolio/", "_blank");
-  };
-
-  const handleWeatherDashboardLinkClick = () => {
-    window.open("https://jordanolguin.github.io/WeatherDashboard/", "_blank");
-  };
-
-  const handleEmployeeTrackerLinkClick = () => {
-    window.open("https://github.com/jordanolguin/EmployeeTracker", "_blank");
-  };
-
-  const handleReadmeGeneratorLinkClick = () => {
-    window.open("https://github.com/jordanolguin/REAMDMEGenerator", "_blank");
-  };
   return (
     <div className="neonBorderWork">
       <h1>work</h1>
       <div className="card-container">
-        <div
-          className="card workoutWizard"
-          onClick={handleWorkoutWizardLinkClick}
-        >
-          <h3>Workout Wizard</h3>
-        </div>
-        <div
-          className="card roadTripBuddy"
-          onClick={handleRoadTripBuddyLinkClick}
-        >
-          <h3>Road Trip Buddy</h3>
-        </div>
-        <div
-          className="card NonReactPortfolio"
-          onClick={handleNonReactPortfolioLinkClick}
-        >
-          <h3>HTML, CSS, JS ONLY Portfolio</h3>
-        </div>
-        <div
-          className="card weatherDashboard"
-          onClick={handleWeatherDashboardLinkClick}
-        >
-          <h3>Weather Dashboard</h3>
-        </div>
-        <div
-          className="card employeeTracker"
-          onClick={handleEmployeeTrackerLinkClick}
-        >
-          <h3>Employee Tracker CLI APP</h3>
-        </div>
-        <div
-          className="card readmeGenerator"
-          onClick={handleReadmeGeneratorLinkClick}
-        >
-          <h3>README.md Generator CLI APP</h3>
-        </div>
+        {projectData.map((project, index) => (
+          <Project key={index} {...project} />
+        ))}
       </div>
     </div>
   );

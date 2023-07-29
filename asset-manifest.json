@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/REACTWebDevPortfolio/static/css/main.ef4f6ca1.css",
-    "main.js": "/REACTWebDevPortfolio/static/js/main.78eea699.js",
+    "main.js": "/REACTWebDevPortfolio/static/js/main.28fc078f.js",
     "static/media/WorkoutWizardScreenshot.png": "/REACTWebDevPortfolio/static/media/WorkoutWizardScreenshot.55b63d05b73fdbf64db6.png",
     "static/media/WeatherDashboardScreenshot.png": "/REACTWebDevPortfolio/static/media/WeatherDashboardScreenshot.feddea25189de8f725d7.png",
     "static/media/PortfolioScreenshot.png": "/REACTWebDevPortfolio/static/media/PortfolioScreenshot.00b873c59b9d0e460bc7.png",
@@ -12,10 +12,10 @@
     "static/media/resume.pdf": "/REACTWebDevPortfolio/static/media/resume.3b813333766e0c28029b.pdf",
     "index.html": "/REACTWebDevPortfolio/index.html",
     "main.ef4f6ca1.css.map": "/REACTWebDevPortfolio/static/css/main.ef4f6ca1.css.map",
-    "main.78eea699.js.map": "/REACTWebDevPortfolio/static/js/main.78eea699.js.map"
+    "main.28fc078f.js.map": "/REACTWebDevPortfolio/static/js/main.28fc078f.js.map"
   },
   "entrypoints": [
     "static/css/main.ef4f6ca1.css",
-    "static/js/main.78eea699.js"
+    "static/js/main.28fc078f.js"
   ]
 }

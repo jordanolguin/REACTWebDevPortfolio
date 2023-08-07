@@ -178,6 +178,11 @@ a {
   justify-content: flex-end;
 }
 
+.chat98 {
+  background-image: url(Chat98screenshot.png);
+  background-size: cover;
+}
+
 .workoutWizard {
   background-image: url(WorkoutWizardScreenshot.png);
   background-size: cover;
@@ -190,11 +195,6 @@ a {
 
 .NonReactPortfolio {
   background-image: url(PortfolioScreenshot.png);
-  background-size: cover;
-}
-
-.weatherDashboard {
-  background-image: url(WeatherDashboardScreenshot.png);
   background-size: cover;
 }
 

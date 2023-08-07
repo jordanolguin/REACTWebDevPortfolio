@@ -2,6 +2,11 @@ import React from "react";
 
 const projectData = [
   {
+    title: "Chat 98",
+    link: "https://chat98-a21833346cf4.herokuapp.com/",
+    className: "chat98",
+  },
+  {
     title: "Workout Wizard",
     link: "https://the-workout-wizard-7d5c29c6d6dd.herokuapp.com/",
     className: "workoutWizard",
@@ -15,11 +20,6 @@ const projectData = [
     title: "HTML, CSS, JS ONLY Portfolio",
     link: "https://jordanolguin.github.io/WebDevPortfolio/",
     className: "NonReactPortfolio",
-  },
-  {
-    title: "Weather Dashboard",
-    link: "https://jordanolguin.github.io/WeatherDashboard/",
-    className: "weatherDashboard",
   },
   {
     title: "Employee Tracker CLI APP",

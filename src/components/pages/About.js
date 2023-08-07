@@ -22,9 +22,11 @@ export default function About() {
       <p>
         HTML | CSS | JavaScript | JSON | Node.js | MySQL | Sequelize | Bootstrap
         | Handlebars | Inquirer | Bcrypt | Git | Nodemon | React.js | NoSQL |
-        GraphQL | MERN | PWAs | Agile Methodologies
+        GraphQL | MERN | NoSQL | PWAs | Agile Methodologies
       </p>
-      <h1>resume: click to download</h1>
+      <h1>
+        resume: <span style={{ fontSize: "60%" }}>click to download </span>{" "}
+      </h1>
       <div className="resumeCard" onClick={handleDownload}></div>
     </div>
   );

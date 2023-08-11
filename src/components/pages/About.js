@@ -1,13 +1,20 @@
 import React from "react";
 
 export default function About() {
-  const resumePDF = require("../../assets/resume.pdf");
+  const resumePDF = require("../../assets/Jordan_Olguin_Resume.pdf");
 
   const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = resumePDF;
-    link.download = "resume.pdf";
-    link.click();
+    fetch(resumePDF)
+      .then((res) => res.blob())
+      .then((blob) => {
+        const url = window.URL.createObjectURL(new Blob([blob]));
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "jordan-olguin-resume.pdf";
+        link.click();
+        window.URL.revokeObjectURL(url);
+      })
+      .catch((err) => console.log(err));
   };
   return (
     <div className="neonBorderAbout">

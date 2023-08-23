@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import PortfolioContainer from "./components/PortfolioContainer.js";
 import Granim from "granim";
 

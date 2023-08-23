@@ -1,8 +1,10 @@
+/* Global Styles */
 * {
   color: #f8f9fa;
   font-family: "Share Tech Mono", monospace;
 }
 
+/* Canvas Styles */
 #canvas-basic {
   position: absolute;
   display: block;
@@ -34,63 +36,10 @@
   overflow: hidden;
 }
 
-.neonBorderHome {
-  text-align: start;
-  padding-left: 4%;
-  padding-top: 3%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 75vh;
-  width: 75vw;
-  overflow-x: auto;
-  position: absolute;
-  border: 0.2rem solid #fff;
-  border-radius: 0.2rem;
-  background-color: #212529;
-  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
-    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
-  margin: 1%;
-}
-
-.neonBorderContact {
-  text-align: start;
-  padding-left: 4%;
-  padding-top: 3%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 75vh;
-  width: 75vw;
-  overflow-x: auto;
-  position: absolute;
-  border: 0.2rem solid #fff;
-  background-color: #212529;
-  border-radius: 0.2rem;
-  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #13eefe,
-    0 0 0.8rem #13eefe, 0 0 2.8rem #13eefe, inset 0 0 1.3rem #13eefe;
-  margin: 1%;
-}
-
-.neonBorderAbout {
-  text-align: start;
-  padding-left: 4%;
-  padding-top: 3%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 75vh;
-  width: 75vw;
-  overflow-x: auto;
-  position: absolute;
-  border: 0.2rem solid #fff;
-  background-color: #212529;
-  border-radius: 0.2rem;
-  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #13fe17,
-    0 0 0.8rem #13fe17, 0 0 2.8rem #13fe17, inset 0 0 1.3rem #13fe17;
-  margin: 1%;
-}
-
+/* Neon Border Styles */
+.neonBorderHome,
+.neonBorderContact,
+.neonBorderAbout,
 .neonBorderWork {
   text-align: start;
   padding-left: 4%;
@@ -98,23 +47,44 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 75vh;
+  height: 69vh;
   width: 75vw;
-  overflow-y: auto;
-  display: flex;
+  overflow-x: auto;
   position: absolute;
   border: 0.2rem solid #fff;
   background-color: #212529;
   border-radius: 0.2rem;
-  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #fe131f,
-    0 0 0.8rem #fe131f, 0 0 2.8rem #fe131f, inset 0 0 1.3rem #fe131f;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff;
   margin: 1%;
 }
 
+/* Individual Neon Border Styles */
+.neonBorderHome {
+  box-shadow: 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
+}
+
+.neonBorderContact {
+  box-shadow: 0 0 2rem #13eefe, 0 0 0.8rem #13eefe, 0 0 2.8rem #13eefe,
+    inset 0 0 1.3rem #13eefe;
+}
+
+.neonBorderAbout {
+  box-shadow: 0 0 2rem #13fe17, 0 0 0.8rem #13fe17, 0 0 2.8rem #13fe17,
+    inset 0 0 1.3rem #13fe17;
+}
+
+.neonBorderWork {
+  box-shadow: 0 0 2rem #fe131f, 0 0 0.8rem #fe131f, 0 0 2.8rem #fe131f,
+    inset 0 0 1.3rem #fe131f;
+}
+
+/* Link Styles */
 a {
   text-decoration: none;
 }
 
+/* Navigation Styles */
 .navContainer {
   margin-top: 0;
   height: 10vh;
@@ -142,6 +112,7 @@ a {
   color: #212529;
 }
 
+/* Card Styles */
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -161,40 +132,45 @@ a {
   justify-content: flex-end;
 }
 
+/* Background Images */
+.chat98,
+.workoutWizard,
+.roadTripBuddy,
+.NonReactPortfolio,
+.employeeTracker,
+.readmeGenerator {
+  background-size: cover;
+}
+
 .chat98 {
   background-image: url(Chat98screenshot.png);
-  background-size: cover;
 }
 
 .workoutWizard {
   background-image: url(WorkoutWizardScreenshot.png);
-  background-size: cover;
 }
 
 .roadTripBuddy {
   background-image: url(RoadTripBuddyScreenshot.png);
-  background-size: cover;
 }
 
 .NonReactPortfolio {
   background-image: url(PortfolioScreenshot.png);
-  background-size: cover;
 }
 
 .employeeTracker {
   background-image: url(EmployeeTrackerScreenshot.png);
-  background-size: cover;
 }
 
 .readmeGenerator {
   background-image: url(READMEGeneratorScreenshot.png);
-  background-size: cover;
 }
 
+/* Resume Card Styles */
 .resumeCard {
   background-image: url(ResumeScreenshot.png);
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   height: 29.5vh;
   width: 14vw;
   margin: 0.5%;
@@ -202,15 +178,37 @@ a {
   border-radius: 0.2rem;
 }
 
-footer {
-  position: absolute;
+/* Footer Styles */
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
   bottom: 0;
-  left: 0;
   width: 100%;
-  padding: 10px;
   text-align: center;
 }
 
+.content-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  max-width: 50vw;
+  align-items: center;
+  margin: 2rem;
+}
+
+/* Form Styles */
 .formContainer {
   max-width: 25rem;
   margin: 0 auto;
@@ -231,15 +229,7 @@ textarea::placeholder {
   color: #f8f9fa;
 }
 
-input[type="text"] {
-  width: 100%;
-  padding: 0.25rem;
-  background-color: #6c757d;
-  border: 0.2rem solid #fff;
-  border-radius: 0.2rem;
-  box-sizing: border-box;
-}
-
+input[type="text"],
 textarea {
   width: 100%;
   padding: 0.25rem;

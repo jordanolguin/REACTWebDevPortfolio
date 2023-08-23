@@ -1,41 +1,52 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Work from "./pages/Work";
 import Contact from "./pages/Contact";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import Footer from "./Footer";
 
 export default function PortfolioContainer() {
   return (
-    <Router>
-      <div>
+    <div className="content-container">
+      <Router>
         <NavTabs />
         <Routes>
-          <Route path="/REACTWebDevPortfolio" element={<Home />} />
-          <Route path="/REACTWebDevPortfolio/about" element={<About />} />
-          <Route path="/REACTWebDevPortfolio/work" element={<Work />} />
-          <Route path="/REACTWebDevPortfolio/contact" element={<Contact />} />
+          <Route
+            path="/REACTWebDevPortfolio"
+            element={
+              <div className="content">
+                <Home />
+              </div>
+            }
+          />
+          <Route
+            path="/REACTWebDevPortfolio/about"
+            element={
+              <div className="content">
+                <About />
+              </div>
+            }
+          />
+          <Route
+            path="/REACTWebDevPortfolio/work"
+            element={
+              <div className="content">
+                <Work />
+              </div>
+            }
+          />
+          <Route
+            path="/REACTWebDevPortfolio/contact"
+            element={
+              <div className="content">
+                <Contact />
+              </div>
+            }
+          />
         </Routes>
-        <footer>
-          <a
-            href="https://github.com/jordanolguin"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub size={32} />
-          </a>{" "}
-          <a
-            href="https://www.linkedin.com/in/jordan-olguin-5897b7280/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin size={32} />
-          </a>
-        </footer>
-      </div>
-    </Router>
+        <Footer />
+      </Router>
+    </div>
   );
 }

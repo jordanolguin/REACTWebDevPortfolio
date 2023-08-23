@@ -142,26 +142,6 @@ a {
   color: #212529;
 }
 
-.typed {
-  overflow: scroll;
-  white-space: nowrap;
-  border-right: 2px solid;
-  width: 0;
-  animation: typing;
-  animation-duration: 1.5s;
-  animation-timing-function: steps(30, end);
-  animation-fill-mode: forwards;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 32%;
-  }
-}
-
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -284,26 +264,6 @@ button[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {
-  .typed {
-    overflow: scroll;
-    white-space: nowrap;
-    border-right: 2px solid;
-    width: 0;
-    animation: typing;
-    animation-duration: 1.5s;
-    animation-timing-function: steps(30, end);
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 98%;
-    }
-  }
-
   .neonBorderContact,
   .neonBorderAbout,
   .neonBorderHome,
@@ -318,26 +278,6 @@ button[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 667px) and (max-width: 800px) {
-  .typed {
-    overflow: scroll;
-    white-space: nowrap;
-    border-right: 2px solid;
-    width: 0;
-    animation: typing;
-    animation-duration: 1.5s;
-    animation-timing-function: steps(30, end);
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 63.5%;
-    }
-  }
-
   .resumeCard {
     height: 8rem;
     width: 25rem;

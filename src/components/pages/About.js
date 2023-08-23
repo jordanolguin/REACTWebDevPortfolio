@@ -28,8 +28,9 @@ export default function About() {
       <h1>skills</h1>
       <p>
         HTML | CSS | JavaScript | JSON | Node.js | MySQL | Sequelize | Bootstrap
-        | Handlebars | Inquirer | Bcrypt | Git | Nodemon | React.js | NoSQL |
-        GraphQL | MERN | NoSQL | PWAs | Agile Methodologies
+        | Handlebars | Inquirer | Bcrypt | Git | Nodemon | React.js | React
+        Natvie | NativeBase | NoSQL | GraphQL | MERN | NoSQL | PWAs | Agile
+        Methodologies
       </p>
       <h1>
         resume: <span style={{ fontSize: "60%" }}>click to download </span>{" "}

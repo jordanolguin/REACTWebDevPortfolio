@@ -21,10 +21,13 @@ export default function About() {
     <div className="neonBorderAbout">
       <h1>about me</h1>
       <p>
-        Hi! I am a yogi, musician, actor and full-stack dev with exceptional
-        leadership and communication skills. I enjoy building full-stack apps
-        and constantly tackling new challenges! With high energy and good vibes,
-        I am passionate about delivering top-notch results.
+        Hi! 👋 Full Stack Dev by day, Yogi 🧘‍♂️, Musician 🎵, Singer 🎤, and Actor
+        🎭 by night. 🌟 I thrive on new experiences and challenges. From
+        managing retail, to serving up delicious dishes, to stealing the
+        spotlight on stage and screen, rocking live gigs, and finding zen on the
+        yoga mat, I've dabbled in it all. 🌆🎬🎸 My secret sauce? Stellar
+        collaboration and leadership skills that make me a team player
+        extraordinaire. Let's connect and make some magic happen!
       </p>
       <h1>skills</h1>
       <p>

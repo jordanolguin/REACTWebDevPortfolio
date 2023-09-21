@@ -1,7 +1,7 @@
 /* Global Styles */
 * {
   color: #f8f9fa;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Canvas Styles */
@@ -47,12 +47,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 75vh;
-  width: 75vw;
+  height: 65vh;
+  width: 65vw;
   overflow-x: auto;
   position: absolute;
   border: 0.2rem solid #fff;
-  background-color: #212529;
   border-radius: 0.2rem;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff;
   margin: 1%;
@@ -77,6 +76,24 @@
 .neonBorderWork {
   box-shadow: 0 0 2rem #fe131f, 0 0 0.8rem #fe131f, 0 0 2.8rem #fe131f,
     inset 0 0 1.3rem #fe131f;
+}
+
+.image-container {
+  position: absolute;
+  max-width: 26rem;
+  max-height: 26rem;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-50%);
+}
+
+.homeImg {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  transform: scaleX(-1);
+  margin-top: 5rem;
+  margin-left: 5rem;
 }
 
 /* Link Styles */
@@ -152,10 +169,6 @@ a {
 
 .roadTripBuddy {
   background-image: url(RoadTripBuddyScreenshot.png);
-}
-
-.NonReactPortfolio {
-  background-image: url(PortfolioScreenshot.png);
 }
 
 .employeeTracker {
@@ -264,6 +277,11 @@ button[type="submit"]:hover {
   .resumeCard {
     height: 4rem;
     width: 12rem;
+  }
+
+  .homeImg {
+    margin-top: 16rem;
+    margin-left: 3rem;
   }
 }
 

@@ -6,20 +6,17 @@ export default function App() {
   useEffect(() => {
     const granimInstance = new Granim({
       element: "#canvas-basic",
-      direction: "custom",
-      customDirection: {
-        x0: "40%",
-        y0: "10px",
-        x1: "60%",
-        y1: "50%",
-      },
-      isPausedWhenNotInView: false,
+      name: "basic-gradient",
+      direction: "diagonal",
+      opacity: [1, 1],
       states: {
         "default-state": {
           gradients: [
+            ["#000", "#212529"],
+            ["#212529", "#000"],
+            ["#343a40", "#212529"],
             ["#212529", "#343a40"],
             ["#495057", "#6c757d"],
-            ["#adb5bd", "#ced4da"],
           ],
           transitionSpeed: 4000,
         },

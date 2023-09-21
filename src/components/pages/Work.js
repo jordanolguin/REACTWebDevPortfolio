@@ -15,11 +15,6 @@ const projectData = [
     className: "roadTripBuddy",
   },
   {
-    title: "HTML, CSS, JS ONLY Portfolio",
-    link: "https://jordanolguin.github.io/WebDevPortfolio/",
-    className: "NonReactPortfolio",
-  },
-  {
     title: "Employee Tracker CLI APP",
     link: "https://github.com/jordanolguin/EmployeeTracker",
     className: "employeeTracker",

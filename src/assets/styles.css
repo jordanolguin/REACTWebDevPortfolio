@@ -47,8 +47,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 65vh;
-  width: 65vw;
+  height: 70vh;
+  width: 70vw;
   overflow-x: auto;
   position: absolute;
   border: 0.2rem solid #fff;
@@ -150,7 +150,6 @@ a {
 .chat98,
 .workoutWizard,
 .roadTripBuddy,
-.NonReactPortfolio,
 .employeeTracker,
 .readmeGenerator {
   background-size: cover;
@@ -274,11 +273,6 @@ button[type="submit"]:hover {
   .resumeCard {
     height: 4rem;
     width: 12rem;
-  }
-
-  .homeImg {
-    margin-top: 16rem;
-    margin-left: 3rem;
   }
 }
 

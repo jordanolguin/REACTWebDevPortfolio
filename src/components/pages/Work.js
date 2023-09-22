@@ -1,21 +1,28 @@
+import React from "react";
+
 const projectData = [
+  {
+    title: "Budget Babe - Full Stack React Native App",
+    link: "https://github.com/jordanolguin/BudgetBabe",
+    className: "budgetBabe",
+  },
   {
     title: "Kyle Jennings Music Official Website",
     link: "https://kylejenningsmusic.com",
     className: "kyleJennings",
   },
   {
-    title: "Chat 98",
+    title: "Chat 98 - Full Stack IM App",
     link: "https://chat98-a21833346cf4.herokuapp.com/",
     className: "chat98",
   },
   {
-    title: "Workout Wizard",
+    title: "Workout Wizard - Full Stack Workout Tracker App",
     link: "https://the-workout-wizard-7d5c29c6d6dd.herokuapp.com/",
     className: "workoutWizard",
   },
   {
-    title: "Road Trip Buddy",
+    title: "Road Trip Buddy - Front End Navigation App",
     link: "https://dsstad.github.io/travel-weather/",
     className: "roadTripBuddy",
   },
@@ -43,12 +50,23 @@ const Project = ({ title, link, className }) => {
 };
 
 export default function Work() {
+  const chat98Index = projectData.findIndex(
+    (project) => project.className === "chat98"
+  );
+
   return (
     <div className="neonBorderWork">
-      <h1>work</h1>
+      <h1>post-grad professional</h1>
       <div className="card-container">
         {projectData.map((project, index) => (
-          <Project key={index} {...project} />
+          <React.Fragment key={index}>
+            {index === chat98Index && (
+              <>
+                <h1 className="pre-grad">pre-grad projects</h1>
+              </>
+            )}
+            <Project {...project} />
+          </React.Fragment>
         ))}
       </div>
     </div>

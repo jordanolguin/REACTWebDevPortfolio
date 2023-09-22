@@ -79,6 +79,7 @@
     inset 0 0 1.3rem #fe131f;
 }
 
+/* Personal Pic Styles */
 .neonBorderHome::after {
   content: "";
   position: absolute;
@@ -155,6 +156,7 @@ a {
   margin-right: 0.5rem;
 }
 
+.budgetBabe,
 .kyleJennings,
 .chat98,
 .workoutWizard,
@@ -162,6 +164,10 @@ a {
 .employeeTracker,
 .readmeGenerator {
   background-size: cover;
+}
+
+.budgetBabe {
+  background-image: url(BudgetBabeScreenshot.png);
 }
 
 .kyleJennings {
@@ -186,6 +192,13 @@ a {
 
 .readmeGenerator {
   background-image: url(READMEGeneratorScreenshot.png);
+}
+
+.pre-grad {
+  height: fit-content;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Resume Card Styles */

@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/REACTWebDevPortfolio/static/css/main.99cad3f5.css",
-    "main.js": "/REACTWebDevPortfolio/static/js/main.a390dd99.js",
+    "main.css": "/REACTWebDevPortfolio/static/css/main.26caabae.css",
+    "main.js": "/REACTWebDevPortfolio/static/js/main.2cd4324b.js",
     "static/media/WorkoutWizardScreenshot.png": "/REACTWebDevPortfolio/static/media/WorkoutWizardScreenshot.55b63d05b73fdbf64db6.png",
+    "static/media/KJScreenshot.png": "/REACTWebDevPortfolio/static/media/KJScreenshot.e075e0d82740cb803263.png",
     "static/media/Chat98screenshot.png": "/REACTWebDevPortfolio/static/media/Chat98screenshot.6da17e6323f308c6848b.png",
-    "static/media/PortfolioScreenshot.png": "/REACTWebDevPortfolio/static/media/PortfolioScreenshot.00b873c59b9d0e460bc7.png",
     "static/media/RoadTripBuddyScreenshot.png": "/REACTWebDevPortfolio/static/media/RoadTripBuddyScreenshot.6f29550ff604ae608c48.png",
     "static/media/EmployeeTrackerScreenshot.png": "/REACTWebDevPortfolio/static/media/EmployeeTrackerScreenshot.52e56457a3e8020cbfdd.png",
+    "static/media/BudgetBabeScreenshot.png": "/REACTWebDevPortfolio/static/media/BudgetBabeScreenshot.2dc6a7d672e5e8af8ac6.png",
     "static/media/READMEGeneratorScreenshot.png": "/REACTWebDevPortfolio/static/media/READMEGeneratorScreenshot.48c5fbe74fe2527a5412.png",
-    "static/media/ResumeScreenshot.png": "/REACTWebDevPortfolio/static/media/ResumeScreenshot.8a4911efe5f0f1c600e7.png",
-    "static/media/Jordan_Olguin_Resume.pdf": "/REACTWebDevPortfolio/static/media/Jordan_Olguin_Resume.5f20ff5a019733e237fb.pdf",
+    "static/media/ResumeScreenshot.png": "/REACTWebDevPortfolio/static/media/ResumeScreenshot.fc3357cf381d3ef3ab25.png",
+    "static/media/JordanSuit.png": "/REACTWebDevPortfolio/static/media/JordanSuit.ba138f4241af7408f4c4.png",
+    "static/media/Jordan_Olguin_Resume.pdf": "/REACTWebDevPortfolio/static/media/Jordan_Olguin_Resume.a015c2a26c5703df482e.pdf",
     "index.html": "/REACTWebDevPortfolio/index.html",
-    "main.99cad3f5.css.map": "/REACTWebDevPortfolio/static/css/main.99cad3f5.css.map",
-    "main.a390dd99.js.map": "/REACTWebDevPortfolio/static/js/main.a390dd99.js.map"
+    "main.26caabae.css.map": "/REACTWebDevPortfolio/static/css/main.26caabae.css.map",
+    "main.2cd4324b.js.map": "/REACTWebDevPortfolio/static/js/main.2cd4324b.js.map"
   },
   "entrypoints": [
-    "static/css/main.99cad3f5.css",
-    "static/js/main.a390dd99.js"
+    "static/css/main.26caabae.css",
+    "static/js/main.2cd4324b.js"
   ]
 }

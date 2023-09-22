@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/REACTWebDevPortfolio/static/css/main.26caabae.css",
-    "main.js": "/REACTWebDevPortfolio/static/js/main.2cd4324b.js",
+    "main.css": "/REACTWebDevPortfolio/static/css/main.95c467d8.css",
+    "main.js": "/REACTWebDevPortfolio/static/js/main.38fa3aac.js",
     "static/media/WorkoutWizardScreenshot.png": "/REACTWebDevPortfolio/static/media/WorkoutWizardScreenshot.55b63d05b73fdbf64db6.png",
     "static/media/KJScreenshot.png": "/REACTWebDevPortfolio/static/media/KJScreenshot.e075e0d82740cb803263.png",
     "static/media/Chat98screenshot.png": "/REACTWebDevPortfolio/static/media/Chat98screenshot.6da17e6323f308c6848b.png",
@@ -9,15 +9,15 @@
     "static/media/EmployeeTrackerScreenshot.png": "/REACTWebDevPortfolio/static/media/EmployeeTrackerScreenshot.52e56457a3e8020cbfdd.png",
     "static/media/BudgetBabeScreenshot.png": "/REACTWebDevPortfolio/static/media/BudgetBabeScreenshot.2dc6a7d672e5e8af8ac6.png",
     "static/media/READMEGeneratorScreenshot.png": "/REACTWebDevPortfolio/static/media/READMEGeneratorScreenshot.48c5fbe74fe2527a5412.png",
-    "static/media/ResumeScreenshot.png": "/REACTWebDevPortfolio/static/media/ResumeScreenshot.fc3357cf381d3ef3ab25.png",
+    "static/media/ResumeScreenshot.png": "/REACTWebDevPortfolio/static/media/ResumeScreenshot.5c8f3770e9a1a74f983a.png",
     "static/media/JordanSuit.png": "/REACTWebDevPortfolio/static/media/JordanSuit.ba138f4241af7408f4c4.png",
-    "static/media/Jordan_Olguin_Resume.pdf": "/REACTWebDevPortfolio/static/media/Jordan_Olguin_Resume.a015c2a26c5703df482e.pdf",
+    "static/media/Jordan_Olguin_Resume.pdf": "/REACTWebDevPortfolio/static/media/Jordan_Olguin_Resume.30d1a321d05be5064653.pdf",
     "index.html": "/REACTWebDevPortfolio/index.html",
-    "main.26caabae.css.map": "/REACTWebDevPortfolio/static/css/main.26caabae.css.map",
-    "main.2cd4324b.js.map": "/REACTWebDevPortfolio/static/js/main.2cd4324b.js.map"
+    "main.95c467d8.css.map": "/REACTWebDevPortfolio/static/css/main.95c467d8.css.map",
+    "main.38fa3aac.js.map": "/REACTWebDevPortfolio/static/js/main.38fa3aac.js.map"
   },
   "entrypoints": [
-    "static/css/main.26caabae.css",
-    "static/js/main.2cd4324b.js"
+    "static/css/main.95c467d8.css",
+    "static/js/main.38fa3aac.js"
   ]
 }

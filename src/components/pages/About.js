@@ -32,7 +32,7 @@ export default function About() {
         const url = window.URL.createObjectURL(new Blob([blob]));
         const link = document.createElement("a");
         link.href = url;
-        link.download = "jordan-olguin-resume.pdf";
+        link.download = "Jordan_Olguin_Resume.pdf";
         link.click();
         window.URL.revokeObjectURL(url);
       })

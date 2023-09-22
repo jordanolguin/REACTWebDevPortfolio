@@ -4,9 +4,15 @@ import emailjs from "@emailjs/browser";
 export default function Contact() {
   const form = useRef();
   const [isEmailSent, setIsEmailSent] = useState(false);
+  const [email, setEmail] = useState("");
+  const [isEmailValid, setIsEmailValid] = useState(true);
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (!isEmailValid) {
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -39,6 +45,15 @@ export default function Contact() {
       }
     }
   };
+
+  const handleEmailChange = (e) => {
+    const emailValue = e.target.value;
+    setEmail(emailValue);
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    setIsEmailValid(emailRegex.test(emailValue));
+  };
+
   return (
     <div className="neonBorderContact">
       <h1>contact me</h1>
@@ -63,7 +78,13 @@ export default function Contact() {
                 type="text"
                 placeholder="email@domain.com"
                 required
+                value={email}
+                onChange={handleEmailChange}
+                className={!isEmailValid ? "invalid-email" : ""}
               ></input>
+              {!isEmailValid && (
+                <p className="error-message">please enter a valid email</p>
+              )}
             </div>
             <div className="message" tabIndex={3}>
               <label>your message</label>

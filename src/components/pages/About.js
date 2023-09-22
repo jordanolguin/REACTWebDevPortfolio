@@ -1,6 +1,27 @@
 import { FaGithub, FaLinkedin, FaSpotify } from "react-icons/fa";
 import { SiApplemusic } from "react-icons/si";
 
+const skillsList = [
+  "HTML5",
+  "CSS3",
+  "JavaScript (ES6+)",
+  "React.js",
+  "React Native",
+  "Node.js",
+  "Express.js",
+  "RESTful APIs",
+  "GraphQL",
+  "Front-end Frameworks (e.g., Bootstrap)",
+  "Database Design (MySQL, NoSQL)",
+  "ORM (Sequelize)",
+  "Version Control (Git)",
+  "Server Monitoring (Nodemon)",
+  "Authentication (Bcrypt)",
+  "Agile Methodologies",
+  "PWAs",
+  "UI/UX Design Principles",
+];
+
 export default function About() {
   const resumePDF = require("../../assets/Jordan_Olguin_Resume.pdf");
 
@@ -30,12 +51,11 @@ export default function About() {
         extraordinaire. Let's connect and make some magic happen!
       </p>
       <h1>skills</h1>
-      <p>
-        HTML | CSS | JavaScript | JSON | Node.js | MySQL | Sequelize | Bootstrap
-        | Handlebars | Inquirer | Bcrypt | Git | Nodemon | React.js | React
-        Native | NativeBase | NoSQL | GraphQL | MERN | NoSQL | PWAs | Agile
-        Methodologies
-      </p>
+      <ul className="skillsList">
+        {skillsList.map((skill, index) => (
+          <li key={index}>{skill}</li>
+        ))}
+      </ul>
       <h1>follow me</h1>
       <div className="socials">
         <a

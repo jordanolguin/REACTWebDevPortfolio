@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import JordanSuit from "../../assets/JordanSuit.png";
 
 export default function Home() {
   const [text, setText] = useState("");
@@ -11,6 +10,7 @@ export default function Home() {
     "yogi",
     "ui/ux designer",
     "musician",
+    "react/react native developer",
     "actor",
   ];
 
@@ -37,9 +37,6 @@ export default function Home() {
       <h2 className="banner-text">
         <span className="wrap">{text || "\u00A0"}</span>
       </h2>
-      <div className="image-container">
-        <img src={JordanSuit} className="homeImg" alt="jordan olguin" />
-      </div>
     </div>
   );
 }

@@ -147,12 +147,25 @@ a {
 }
 
 /* Background Images */
+.projectTitle {
+  border: 0.02rem solid #fff;
+  background-color: #212529;
+  padding: 0.25rem;
+  border-radius: 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.kyleJennings,
 .chat98,
 .workoutWizard,
 .roadTripBuddy,
 .employeeTracker,
 .readmeGenerator {
   background-size: cover;
+}
+
+.kyleJennings {
+  background-image: url(KJScreenshot.png);
 }
 
 .chat98 {

@@ -1,5 +1,10 @@
 const projectData = [
   {
+    title: "Kyle Jennings Music Official Website",
+    link: "https://kylejenningsmusic.com",
+    className: "kyleJennings",
+  },
+  {
     title: "Chat 98",
     link: "https://chat98-a21833346cf4.herokuapp.com/",
     className: "chat98",
@@ -32,7 +37,7 @@ const Project = ({ title, link, className }) => {
   };
   return (
     <div className={`card ${className}`} onClick={handleClick}>
-      <h3>{title}</h3>
+      <h3 className="projectTitle">{title}</h3>
     </div>
   );
 };

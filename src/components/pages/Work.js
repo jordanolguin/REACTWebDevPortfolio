@@ -7,6 +7,11 @@ const projectData = [
     className: "budgetBabe",
   },
   {
+    title: "ISP Solutions",
+    link: "https://ispsolutions.space/",
+    className: "ispSolutions",
+  },
+  {
     title: "Kyle Jennings Music Official Website",
     link: "https://kylejenningsmusic.com",
     className: "kyleJennings",

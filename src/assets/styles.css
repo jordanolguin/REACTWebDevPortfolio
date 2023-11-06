@@ -157,6 +157,7 @@ a {
 }
 
 .budgetBabe,
+.ispSolutions,
 .kyleJennings,
 .chat98,
 .workoutWizard,
@@ -168,6 +169,10 @@ a {
 
 .budgetBabe {
   background-image: url(BudgetBabeScreenshot.png);
+}
+
+.ispSolutions {
+  background-image: url(ISPSolutionsScreenshot.png);
 }
 
 .kyleJennings {

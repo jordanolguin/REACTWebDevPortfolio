@@ -7,6 +7,11 @@ const projectData = [
     className: "budgetBabe",
   },
   {
+    title: "Santa's Surprise Exchange - NodeJS CLI/React App",
+    link: "https://github.com/jordanolguin/SecretSantaPicker",
+    className: "santasSurpriseExchange",
+  },
+  {
     title: "ISP Solutions",
     link: "https://ispsolutions.space/",
     className: "ispSolutions",

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/REACTWebDevPortfolio/static/css/main.adb08860.css",
-    "main.js": "/REACTWebDevPortfolio/static/js/main.9b655703.js",
+    "main.js": "/REACTWebDevPortfolio/static/js/main.493b2116.js",
     "static/media/SantasSurpriseExchangeScreenshot.png": "/REACTWebDevPortfolio/static/media/SantasSurpriseExchangeScreenshot.e83adb922828ecab189e.png",
     "static/media/ISPSolutionsScreenshot.png": "/REACTWebDevPortfolio/static/media/ISPSolutionsScreenshot.cd6f76f6745c0cf7f5bc.png",
     "static/media/WorkoutWizardScreenshot.png": "/REACTWebDevPortfolio/static/media/WorkoutWizardScreenshot.55b63d05b73fdbf64db6.png",
@@ -13,13 +13,13 @@
     "static/media/READMEGeneratorScreenshot.png": "/REACTWebDevPortfolio/static/media/READMEGeneratorScreenshot.48c5fbe74fe2527a5412.png",
     "static/media/ResumeScreenshot.png": "/REACTWebDevPortfolio/static/media/ResumeScreenshot.329875859a5230a3064d.png",
     "static/media/JordanSuit.png": "/REACTWebDevPortfolio/static/media/JordanSuit.ba138f4241af7408f4c4.png",
-    "static/media/Jordan_Olguin_Resume.pdf": "/REACTWebDevPortfolio/static/media/Jordan_Olguin_Resume.9e8ed3a67f144c1b16a7.pdf",
+    "static/media/Jordan_Olguin_Resume.pdf": "/REACTWebDevPortfolio/static/media/Jordan_Olguin_Resume.3a91fd4bebe1ea88bb9e.pdf",
     "index.html": "/REACTWebDevPortfolio/index.html",
     "main.adb08860.css.map": "/REACTWebDevPortfolio/static/css/main.adb08860.css.map",
-    "main.9b655703.js.map": "/REACTWebDevPortfolio/static/js/main.9b655703.js.map"
+    "main.493b2116.js.map": "/REACTWebDevPortfolio/static/js/main.493b2116.js.map"
   },
   "entrypoints": [
     "static/css/main.adb08860.css",
-    "static/js/main.9b655703.js"
+    "static/js/main.493b2116.js"
   ]
 }

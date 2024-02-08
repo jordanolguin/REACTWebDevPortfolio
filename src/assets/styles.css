@@ -156,6 +156,7 @@ a {
   margin-right: 0.5rem;
 }
 
+.olaVeda,
 .budgetBabe,
 .santasSurpriseExchange,
 .ispSolutions,
@@ -166,6 +167,10 @@ a {
 .employeeTracker,
 .readmeGenerator {
   background-size: cover;
+}
+
+.olaVeda {
+  background-image: url(OlaVedaScreenshot.png);
 }
 
 .budgetBabe {

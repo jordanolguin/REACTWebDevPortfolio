@@ -2,6 +2,11 @@ import React from "react";
 
 const projectData = [
   {
+    title: "Ola Veda Wellness",
+    link: "https://olavedawellness.com/",
+    className: "olaVeda",
+  },
+  {
     title: "Budget Babe - Full Stack React Native App",
     link: "https://github.com/jordanolguin/BudgetBabe",
     className: "budgetBabe",
